@@ -12,7 +12,7 @@ public class HelloServlet extends HttpServlet{
         try {
             response.getWriter().println("<h1>Hello Servlet!</h1>");
             response.getWriter().println(new Date().toLocaleString());
-            system.out.println("你好")
+
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
